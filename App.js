@@ -15,6 +15,7 @@ import {FocusHistory } from './src/features/focushistory';
  
 
 export default function App () {
+  console.log('hello')
   const [currentSubject, setCurrentSubject] = useState([null]);
   const [history, setHistoty] = useState([]);
 
